@@ -1,0 +1,31 @@
+{
+  "name": "fragments-ui",
+  "private": true,
+  "version": "0.0.1",
+  "description": "My CCP555 repo for web app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PRABHLEEN-KAUR3/fragments-ui.git"
+  },
+  "keywords": [],
+  "author": "Prabhleen Kaur",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/PRABHLEEN-KAUR3/fragments-ui/issues"
+  },
+  "homepage": "https://github.com/PRABHLEEN-KAUR3/fragments-ui#readme",
+  "dependencies": {
+    "@parcel/resolver-default": "^2.5.0",
+    "aws-amplify": "^4.3.22"
+  },
+  "devDependencies": {
+    "parcel": "^2.5.0",
+    "querystring-es3": "^0.2.1"
+  }
+}
